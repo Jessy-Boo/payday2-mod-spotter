@@ -1,0 +1,15 @@
+{
+    "name" : "Weapon FOV Adjust",
+    "description" : "Adjusts weapon field of view and camera offset for certain first-person states.",
+    "author" : "Jessy-Boo",
+    "version" : "1.0",
+    "contact": "https://https://github.com/Jessy-Boo/payday2-mod-spotter",
+    "blt_version" : 2,
+    "priority" : 10,
+    "hooks" : [
+        {
+            "hook_id" : "lib/units/beings/player/states/playerstandard",
+            "script_path" : "main.lua"
+        }
+    ]
+}
